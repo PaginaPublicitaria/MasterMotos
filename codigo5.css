@@ -1,0 +1,75 @@
+
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: 'Truculenta', sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand {
+  font-family: 'Merienda', cursive;
+  font-size: 1.5rem;
+}
+
+#buscador {
+  background-color: #e79e67;
+  color: white;
+  border: 2px solid orange;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.boton-buscar {
+  background-color: rgb(255, 132, 0);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.producto-card {
+  background-color: rgba(55, 184, 135, 0.8); /* color fondo tarjeta */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.imagen-con-fondo {
+  background-image: url('transparente.png');
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.producto-img {
+  max-height: 90%;
+  max-width: 90%;
+  object-fit: contain;
+  z-index: 2;
+}
+
+.card-body h5 {
+  font-size: 16px;
+  font-family: 'Merienda', cursive;
+  text-align: center;
+  color: rgb(255, 132, 0);
+}
+
+.card-body .text-info {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
